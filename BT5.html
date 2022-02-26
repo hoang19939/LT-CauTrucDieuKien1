@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ</title>
+
+</head>
+<body>
+<script>
+    let A = parseInt(prompt('enter with A'));
+    let B= parseInt(prompt('enter with B'));
+    let C = parseInt(prompt('enter with C'));
+    let ĐTB =(A+B+C)/3;
+    if (ĐTB>=9.0) {
+        document.write("Xếp hàng là A");
+    }
+    if ( ĐTB>=7.0 && ĐTB <9.0) {
+        document.write("Xếp hàng là B");
+    }else if (ĐTB>=5.0 && ĐTB<7.0){
+        document.write("Xếp hàng là C");
+    }else if (ĐTB<5){
+        document.write("Xếp hàng là F");
+    }
+</script>
+
+</body>
+</html>

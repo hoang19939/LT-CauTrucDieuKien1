@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập vào hai số a và b, và kiểm tra xem a có chia hết cho b hay không</title>
+</head>
+<h3 id="rs">
+
+</h3>
+Nhập a :<input size="10px" type="text" id="ip1"><br><br>
+Nhập b :<input  size="10px" type="text" id="ip2">
+<button ONCLICK="result()">KQ</button>
+<body>
+<script>
+    function result() {
+        let a = document.getElementById('ip1').value;
+        let b = document.getElementById("ip2").value;
+        if (a%b==0) {
+            document.write('a chia hết cho b');
+        }else {
+            document.write('a không chia hết cho b');
+        }
+    }
+
+</script>
+
+</body>
+</html>
